@@ -1,0 +1,5 @@
+name,description,quantity,cost_per_unit,fulfilled
+Apple,"Fresh and juicy apple",10,1.50,True
+Banana,"Ripe yellow banana",15,0.75,True
+Orange,"Sweet and tangy orange",20,1.00,False
+Grapes,"Seedless green grapes",12,2.00,True

@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header-container{
+  height: 5em;
+}
+
+.data-container{
+  height: 10em;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin:auto;
+  scroll-behavior: auto;
+}
+tr{
+  background: rgba(221, 241, 216, 0.34);
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+/* Define alternating row colors */
+tr:nth-child(even) {
+  background-color: rgba(162, 231, 157, 0.43); /* Light green color */
+}
+textarea{
+  border:none;
+}
+
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* File upload section */
+.file-upload-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.file-upload-container h1 {
+  font-size: 20px;
+}
+
+.file-upload-container input[type="file"] {
+  margin: 10px 0;
+}
+
+/* Search section */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Data table styles */
+.data-container {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.data-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* Button styles */
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-buttons button.edit-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.action-buttons button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.action-buttons button:hover {
+  opacity: 0.8;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
